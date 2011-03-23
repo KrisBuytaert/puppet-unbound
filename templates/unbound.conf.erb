@@ -1,0 +1,19 @@
+server:
+    verbosity: <%= verbosity %>
+ 
+<% interfaces.each do |interface| -%>
+    interface: <%= interface %> 
+<% end -%>
+    do-ip6:    <%= doip6    %>
+    port:      <%= port      %>
+
+
+<% accesscontrols.each do |accesscontrol| -%>
+    access-control: <%= accesscontrol %>
+<% end -%>
+    
+
+
+remote-control:
+    control-enable: <%= controlenable %> 
+

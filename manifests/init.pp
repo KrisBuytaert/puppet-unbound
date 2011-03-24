@@ -15,13 +15,13 @@ class unbound::package {
 
 	# Require EPEL  5 REPO
 
- 	yumrepo {
-        "epel":
-            descr => "Epel-5",
-	    baseurl => "http://mirror.eurid.eu/epel/5/i386/",
-            enabled => 1,
-            gpgcheck => 0,
-    	}
+# 	yumrepo {
+#        "epel":
+#            descr => "Epel-5",
+#	    baseurl => "http://mirror.eurid.eu/epel/5/i386/",
+#            enabled => 1,
+#            gpgcheck => 0,
+#    	}
 
 	
 	

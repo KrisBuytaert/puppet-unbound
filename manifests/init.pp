@@ -38,7 +38,7 @@ class unbound::package {
 # EOC unbound::package 
 
 
-class unbound::enabled inherits unboundj{
+class unbound::enabled inherits unbound{
  Service["unbound"] {
         ensure => "running" ,
         enable => "true",
